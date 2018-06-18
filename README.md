@@ -1,7 +1,7 @@
 Prints stack tracebacks showing each frame's local variables and improves visual feedback using colors.
 
 # Usage
-Simply import `prettytb` and use the `logexc` as as decorator for your functions/methods.
+Simply import `prettytb` and use `logexc` as a decorator for your functions/methods.
 
 ![Code example](docs/example-code.png)
 
