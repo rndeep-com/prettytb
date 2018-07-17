@@ -72,7 +72,10 @@
 import sys
 import types
 import functools
-from builtins import str
+try:
+    from builtins import str
+except ImportError:
+    pass
 from . _error_report import get_error_report
 from . _inject_colors import inject_colors
 
